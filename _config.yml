@@ -1,0 +1,16 @@
+#title:  3rd Workshop and Challenge on Computer Vision In The Built Environment For The Design, Construction and Operation of Buildings 
+#description: CV4AEC @ CVPR 2023
+
+theme: jekyll-theme-cayman
+
+markdown: kramdown
+
+baseurl: /
+
+# Remove `View on GitHub` & Download buttons
+show_downloads: false
+#github:
+#  is_project_page: false
+
+plugins:
+  - jemoji
