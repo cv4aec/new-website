@@ -32,8 +32,8 @@ To further establish connections between the two domains and identify what we ca
 - **12 April 2023 (00:00 UTC) ---** Training + Validation + Testing data available for 2D 
 - **14 April 2023 (00:00 UTC) ---** Training + Testing data available for 3D
 - **15 Apr 2023 (00:00 UTC) ---** Evaluation server **open** to evaluate test submissions
-- **TBD ---** Challenge Submission Deadline
-- **TBD ---** Notification To Participants
+- **02 June 2023 (00:00 UTC) ---** Challenge Submission Deadline
+- **07 June 2023 (00:00 UTC) ---** Notification To Participants
 - **18 June 2023 ---** CV4AEC Workshop @ CVPR 2023
 
 ## :calendar: **Schedule** {#schedule}
@@ -155,7 +155,7 @@ The 2D Floorplan Reconstruction challenge contains a total of 31 buildings with 
 
 ### 3D Building Model Reconstruction
 
-The training data consists of 18 floors from 10 buildings. For each model, there is an aligned point cloud in LAZ format. The 3D building coordinates for walls, columns and doors are presented in 3 separate JSON files. We focus on the reconstruction of walls, columns, and doors. The 3D challenge is hosted **[Codalab](https://codalab.lisn.upsaclay.fr/competitions/12405)**. We have provided a **[Github repository](https://github.com/cv4aec/3d-matching-eval)** containing the evaluation code and metrics for building model reconstruction. The submission should be made in the same JSON format as in the provided ground truth. We evaluate the submissions on a variety of metrics : 
+The training data consists of 18 floors from 10 buildings. For each model, there is an aligned point cloud in LAZ format. The 3D building coordinates for walls, columns and doors are presented in 3 separate JSON files. We focus on the reconstruction of walls, columns, and doors. The 3D challenge is hosted on **[Codalab](https://codalab.lisn.upsaclay.fr/competitions/12405)**. We have provided a **[Github repository](https://github.com/cv4aec/3d-matching-eval)** containing the evaluation code and metrics for building model reconstruction. The submission should be made in the same JSON format as in the provided ground truth. We evaluate the submissions on a variety of metrics : 
 
 1. **3D IoU** of the 3D bounding box of each wall
 2. **Accuracy of the endpoints** : Precision/Recall at 3 different thresholds: 5cm, 10cm and 20cm, as well as F-measure will be evaluated in the coordinate system of the point cloud. The provided endpoints will be matched with the Hungarian algorithm to the point cloud, and every point that is within a certain threshold will be determined as a match. We evaluate per each of the three semantic types (i.e., wall, column, door).
@@ -202,16 +202,16 @@ Challenge winners will be determined based on the **pointcloud-based F-Score** p
 ## :construction_worker: **Organizers** {#organizers}
 <div class="container">
 <figure>
-    <a href="https://cs.stanford.edu/~iarmeni/">
+    <a href="https://ir0.github.io/">
     <img class="img-author" src="assets/imgs/authors/cvpr2023/iroarmeni.jpg" alt="Iro Armeni"/></a>
-    <b><br><a href="https://cs.stanford.edu/~iarmeni/n">Iro Armeni</a>
+    <b><br><a href="https://ir0.github.io/">Iro Armeni</a>
     <br>Postdoctoral Researcher  <br> ETHZ</b>
 </figure>
 
 <figure>
-    <a href="https://cce.oregonstate.edu/people/erzhuo-che">
+    <a href="https://www.linkedin.com/in/erzhuo-ezra-che-40888137/">
     <img class="img-author" src="assets/imgs/authors/cvpr2023/erzhuoche.jpeg" alt="Iro Armeni"/></a>
-    <b><br><a href="https://cce.oregonstate.edu/people/erzhuo-che">Erzhuo Che</a>
+    <b><br><a href="https://www.linkedin.com/in/erzhuo-ezra-che-40888137/">Erzhuo Che</a>
     <br>Professor, CEE <br> Oregon State</b>
 </figure>
 
@@ -230,16 +230,16 @@ Challenge winners will be determined based on the **pointcloud-based F-Score** p
 </figure>
 
 <figure>
-    <a href="https://ic.ibi.ethz.ch/people/prof-dr-daniel-hall.html">
+    <a href="https://fcl.ethz.ch/people/Module-Lead/daniel-hall.html#:~:text=Dr%20Daniel%20Hall%20is%20co,Geomatic%20Engineering%20at%20ETH%20Z%C3%BCrich.">
     <img class="img-author" src="assets/imgs/authors/cvpr2023/danielhall.jpeg" alt="Daniel Hall"/></a>
-    <b><br><a href="https://ic.ibi.ethz.ch/people/prof-dr-daniel-hall.html">Daniel Hall</a>
+    <b><br><a href="https://fcl.ethz.ch/people/Module-Lead/daniel-hall.html#:~:text=Dr%20Daniel%20Hall%20is%20co,Geomatic%20Engineering%20at%20ETH%20Z%C3%BCrich.">Daniel Hall</a>
     <br>Professor, CEE <br> ETHZ</b>
 </figure>
 
 <figure>
-    <a href="https://cce.oregonstate.edu/people/jaehoon-jung">
+    <a href="https://research.engr.oregonstate.edu/geomatics/faculty-members">
     <img class="img-author" src="assets/imgs/authors/cvpr2023/jaehoonjung.jpeg" alt="Jaehoon Jung"/></a>
-    <b><br><a href="https://cce.oregonstate.edu/people/jaehoon-jung">Jaehoon Jung</a>
+    <b><br><a href="https://research.engr.oregonstate.edu/geomatics/faculty-members">Jaehoon Jung</a>
     <br>Professor, CEE <br> Oregon State</b>
 </figure>
 
@@ -251,9 +251,9 @@ Challenge winners will be determined based on the **pointcloud-based F-Score** p
 </figure>
 
 <figure>
-    <a href="https://cce.oregonstate.edu/olsen">
+    <a href="https://directory.forestry.oregonstate.edu/people/olsen-michael">
     <img class="img-author" src="assets/imgs/authors/cvpr2023/michaelolsen.jpg" alt="Michael Olsen"/></a>
-    <b><br><a href="https://cce.oregonstate.edu/olsen">Michael Olsen</a>
+    <b><br><a href="https://directory.forestry.oregonstate.edu/people/olsen-michael">Michael Olsen</a>
     <br>Professor, CEE <br> Oregon State</b>
 </figure>
 
